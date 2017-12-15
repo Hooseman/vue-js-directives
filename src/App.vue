@@ -17,7 +17,7 @@
                 <p>4# componentUpdate(el,binding,vnode,oldVnode)</p>
                 <p>5# unbind(el,binding,vnode)</p>
                 <!-- used the hook bind to do this -->
-                <p v-highlight:background="'red'">Give me a color</p>
+                <p v-highlight:background.delayed="'red'">Give me a color</p>
                 </div>
         </div>
     </div>
